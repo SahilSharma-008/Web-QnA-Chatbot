@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import google.generativeai as genai
 
 # Initialize Gemini API
-genai.configure(api_key='AIzaSyCGIWU2Vun46eOZElDeq_XWBYT0vUf75L0')
+genai.configure(api_key='enter your api')
 #initialize the google gemini model with the specified versionfor text generation
 model = genai.GenerativeModel('gemini-2.5-pro')
 
@@ -87,4 +87,5 @@ def main():
             print("Please fetch valid website content first.")
 
 if __name__ == '__main__':
+
     main()
